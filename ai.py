@@ -28,7 +28,7 @@ if __name__ == '__main__':
     
     model, tokenizer = download_model("mistralai/Mistral-7B-Instruct-v0.2")
     
-    print(generate_response(model, tokenizer, 'Hello can you tell me the capital of Thailand'))
+    generate_response(model, tokenizer, 'Hello can you tell me the capital of Thailand')
     
     
     
